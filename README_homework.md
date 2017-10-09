@@ -13,11 +13,11 @@ var foo = true;  // foo становится типа Boolean
 Стандарт ECMAScript определяет 7 типов данных
 
 * 6 типов данных являются примитивами:
-          * Boolean (Булев, Логический тип)
-          * Null (Null тип )
-          * Undefined (Неопределенный тип)
-          * Number (Число)
-          * String (Строка)
-          * Symbol (в ECMAScript 6)
-          * и Object (Объект)
+   1. Boolean (Булев, Логический тип)
+   2. Null (Null тип )
+   3. Undefined (Неопределенный тип)
+   4. Number (Число)
+   5. String (Строка)
+   6. Symbol (в ECMAScript 6)
+   7. и Object (Объект)
    
