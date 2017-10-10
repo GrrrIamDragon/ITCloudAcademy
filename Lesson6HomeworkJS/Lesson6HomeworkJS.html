@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lesson6HomeworkJS</title>
+</head>
+	<script type="text/javascript">
+
+			/*
+		 4.1. Работа со строками:
+
+		Объявите 3 переменные;
+		2 из них определите со строковыми значениями;
+		Результат конкатенации двух предыдущих, через пробел, присвойте в третью переменную;
+		Результат (третью переменную) выведите в консоль.
+		*/
+			var st1 = "String is life.";
+			var st2 = "String is happyness";
+			var st3 = st1 + " " + st2;
+			console.log(st3);
+		/*
+		  4.2. Работа с числами:
+
+		Объявите 2 переменные и присвойте им числовые значения;
+		Выведите в консоль результат их:
+		сложения;
+		вычитания (оба варианта);
+		умножения;
+		деления (оба варианта);
+		остаток от деления (оба варианта);
+		побитового сдвига влево и вправо (всего 4 варианта);
+		*/
+		var pineapple = 27;
+		var apple = 6;
+		
+		console.log(pineapple + apple);
+
+		console.log(apple - pineapple);	
+		console.log(pineapple - apple);
+
+		console.log(pineapple * apple);	
+
+		console.log(apple / pineapple);
+		console.log(pineapple / apple);
+
+		console.log(apple % pineapple);
+		console.log(pineapple % apple);
+		
+
+		
+		var apple = pineapple << 2;
+		console.log(apple);		
+		var pineapple = apple << 1;
+		console.log(pineapple);
+		var pineapple = 26;
+		var apple = pineapple >> 4;
+		console.log(apple);		
+		var apple = 6;
+		var pineapple = apple >> 1;
+		console.log(pineapple);
+		/*
+		  4.3. Работа с булевым типом:
+
+		Приведите примеры использования операторов, которые вернут значение true или false.
+		Выведите в консоль каждый из них, с указанием в комментарии, какой будет результат.
+		Например:
+		console.log(10 >= 20);  // true
+		console.log('abc' < 'ABC');  // false
+		*/
+		console.log(50<60);//true
+		console.log (50<10);//false
+		console.log(50>60);//false
+		console.log(50>10);//true
+		console.log(50==50);//true
+		console.log(50=="50");//true
+		console.log (50==10);//false
+		console.log(50!=50); //false
+		console.log(50!=10);//true
+		console.log(50>=50)//true
+		console.log(50>=60);//false
+		console.log(50>=2);//true
+		console.log(50<=1);//false
+		console.log(50<=50);//true
+		console.log(45<=100);//true
+		 console.log(3===3)//true
+		 console.log (3==="3")//false
+		 console.log(3===4);//false
+		 console.log(2!==2);//false
+		 console.log(2!=="2");//true
+		 console.log('abc' < 'ABC');  // false
+		 /*
+		 4.4. Работа со встроенными функциями confirm и prompt (*):
+
+		Создать 2 переменные;
+		В первую присвоить результат выполнения функции confirm('True or false?');
+		Во вторую присвоить результат выполнения функции prompt('String or null?');
+		Выведите в консоль тип данных каждый из них, с указанием в комментарии, какой будет результат (если нажать 'OK' и если нажать 'Cancel').
+		*/
+		var  photo = confirm('Это ваше фото?'); 
+		console.log(photo); // Если 'OK' тогда true, если 'Cansel' тогда false.
+		var text = prompt('Введите сюда текст.'); 
+		console.log(text); // Если 'ОК' тогда текст который вводится в строку, если 'Cansel' тогда null.
+
+
+	</script>
+<body>
+
+
+
+</body>
+</html>
