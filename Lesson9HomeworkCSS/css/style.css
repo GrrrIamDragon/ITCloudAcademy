@@ -1,0 +1,10 @@
+body {
+	background: url("../img/fon.png") repeat;
+}
+
+.center {
+	width: 320px;
+	height: 220px;	 
+	background: url("../img/center.png");
+	margin:  200px 500px ;
+}

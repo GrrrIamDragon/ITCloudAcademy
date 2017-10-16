@@ -1,0 +1,30 @@
+.codes {
+	width: 450px;
+	margin: 0 ;
+}
+
+.start {
+	color: #FFF;
+	font-family:  sans-serif;
+	font-weight: bold;
+	background-color: #ff8000;
+	padding: 10px 20px;
+}
+
+.center {
+	background-color: #000;
+	padding: 10px 20px;
+	color: #FFF;
+}
+
+.func {
+	color: #CC9900;
+}
+
+.rest {
+	color: #800080;
+}
+
+.inf {
+	color: #CC3300;
+}
