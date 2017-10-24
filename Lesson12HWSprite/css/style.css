@@ -1,0 +1,27 @@
+div {
+	width: 200px;
+	height: 200px;
+	background-image: url("../img/sprite2.png") ;
+}
+
+.happy2 {
+    background-position: 0 200px;
+}
+.cool {
+	background-position: -200px 0;
+}
+.cool2 {
+	background-position: -200px 200px;
+}
+.evil {
+	background-position: 200px 0;
+}
+.evil2 {
+	background-position: 200px 200px;
+}
+.terrible {
+	background-position: 400px 0;
+}
+.terrible2 {
+	background-position: 400px 200px;
+}
