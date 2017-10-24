@@ -2,6 +2,7 @@ div {
 	width: 200px;
 	height: 200px;
 	background-image: url("../img/sprite2.png") ;
+	display: inline-block;
 }
 
 .happy2 {
