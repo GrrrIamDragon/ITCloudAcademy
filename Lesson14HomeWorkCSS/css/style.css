@@ -1,0 +1,175 @@
+body{
+	background: lightgreen;
+}
+.wrapper{
+	width: 940px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.red{
+	width: 400px;
+	float: left;
+	background: url('../img/fon.jpg');
+    position: relative;
+}
+.white_in_red{
+	width: 270px;
+    border-radius: 7px;
+    background-color: #fff;
+    margin: 90px auto;
+    padding: 18px 0;
+    text-align: center;
+}
+.month
+{
+	margin-top: 12px;
+	font-family: GotProB;
+	font-size: 16px;
+    letter-spacing: -0.7px;
+	color: #575b66; 
+}
+.price_new{
+	color: #9aaf4e;
+	font-family: GotProL;
+	margin-top: 40px;
+    font-size: 51px;
+}
+.price_old{
+	font-family: GotProR;
+	font-size: 15px;
+    letter-spacing: -0.5px;
+	color: #8a8e99;	
+    margin-bottom: 90px;
+}
+.orangeblock{
+	width: 284px;
+    
+    position: absolute;
+    background-color: #fac746;
+    color: #96782b;
+    font-family: GotProM;
+    line-height: 46px;
+    border-radius: 5px 5px ;
+    left: 58px;
+    top: 300px;
+}
+.venok{
+	background: url('../img/venok.png');
+	position: absolute;
+	width: 52px;
+	height: 59px;
+    top: 70px;
+    left: 295px;
+}
+.white{
+	width: 540px;
+	float: left;
+	background-color: #fff;
+}
+
+.text{
+	font-family: GotProR;
+	color: #575b66;
+    line-height: 24px;
+    padding-top: 62px;
+    
+    padding-left: 63px;
+    padding-right: 74px; 
+}
+.payment_methods {
+	float: left;
+	 padding-left: 63px;
+    color: #c2c4cc;
+    margin: 0;
+    font-family: GotProM;
+	font-size: 14px;
+	color: #c6c8cf;
+}
+.payment{
+    margin-top: 30px;
+	height: 50px;
+}
+.privat{
+	cursor:pointer;
+	float:  left;
+	background: url(../img/sprite.png) 1px 20px;
+	width: 21px;
+	height: 18px;	
+}
+.privat:hover {
+	background: url(../img/sprite.png) 1px -5px;	
+}
+.visa {
+	cursor:pointer;
+	float:  left;
+	background: url(../img/sprite.png) -20px 25px;
+	width: 67px;
+	height: 24px;	
+}
+.visa:hover {
+	background: url(../img/sprite.png) -20px 52px;	
+}
+.mastercard {
+	cursor:pointer;
+	float:  left;
+	background: url(../img/sprite.png) -85px 25px;
+	width: 45px;
+	height: 25px;	
+}
+.mastercard:hover {
+	background: url(../img/sprite.png) -85px 52px;	
+}
+.buynow{
+	margin-top: 28px;
+	padding-left: 63px;
+}
+.buynow a{
+	background-color: #aac65a;
+	color: #fff;
+	font-family: GotProM;
+    border-radius: 30px;
+    padding: 18px 50px;
+    text-decoration: none;
+}
+.buynow a:hover{
+	background-color: #97af63;
+}
+.rest{
+	padding-top: 43px;
+	padding-left: 63px;
+	font-family: GotProR;
+	color: #575b66;
+	padding-bottom: 9px;
+}
+.rest a{
+	color: #77b0e1;
+}
+.leave{
+	padding-left: 63px;
+	padding-top: 9px;
+	padding-bottom: 47px;
+}
+.leave a{
+	text-decoration: none;
+	color: #876c27;
+	background-color:#fac746;
+	font-family: GotProR;
+    border-radius: 30px;
+     padding: 14px 30px;
+}
+.leave a:hover{
+	background-color: #d3aa30;
+}
+.x{
+    background: url(../img/x.png);
+	position: absolute;
+    left: 913px;
+    top: 20px;
+    color: black;
+    width: 19px;
+    height: 19px;
+}
+
+.x:hover {
+	background: url(../img/xgrey.png);
+}
