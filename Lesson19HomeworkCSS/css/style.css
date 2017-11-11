@@ -1,0 +1,247 @@
+.text_center{
+	text-align: center;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#section_1{
+	width: 100%;
+	background: url('../img/bg.png') no-repeat center center;
+	
+}
+.wrapper{
+	width: 1170px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 15px;
+}
+p{
+	font: 300 28px 'Poppins',sans-serif;
+}
+div{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	list-style: none;
+	margin: 0 0;
+	padding: 0;
+}
+li{
+	font:300 18px 'Poppins', sans-serif;
+}
+
+.menu ul {
+	float: right;
+	padding-top: 18px;
+}
+.menu li {
+	float: left;
+	margin: 0 18px;
+}
+.logo
+{
+	float: left;
+}
+.icon{
+	color: #f96257;
+}
+.sec1_button{
+	margin: 0 auto;
+	padding-top: 725px;
+	padding-bottom:271px;
+	
+}
+.sec1_button a{
+	color:  #f96257;
+	background:  #fff;
+	font: 400 14px 'Poppins', sans-serif;
+	padding: 17px 33px 16px 33px;
+	border-radius: 3px;
+
+}
+#section_1 .wrapper{
+margin-bottom:  47px;
+}
+/*end section 1*/
+#section_2{
+	width: 100%;
+	background: white;
+}
+.content{
+	padding: 120px 70px 0px 70px;
+}
+.content p{
+	padding-bottom: 50px;
+}
+span{
+	color: #f96257;
+}
+.sec2_buttons{
+	margin: 0 auto;
+	padding-right: 68px;
+	padding-left:68px;
+	margin-bottom: 170px;
+}
+.sec2_buttons div{
+	float: left;
+	margin: 0 10px ;
+}
+.button-1 a{
+	font: 300 22px 'Poppins', sans-serif;
+	background: #d8da77;
+	padding: 29px 88px 29px 89px;
+	border-radius: 3px;
+	color:white;
+}
+.button-2 a{
+	font: 300 22px 'Poppins', sans-serif;
+	background: #a7ad27;
+	padding: 28px 45px 29px 47px;
+	border-radius: 3px;
+	color:white;
+}
+.button-3 a{
+	font: 300 22px 'Poppins', sans-serif;
+	background: #f96257;
+	padding: 29px 45px 29px 47px;
+	border-radius: 3px;
+	color:white;
+}
+/*end section 2*/
+#section_3{
+	background:white;
+	width: 100%;
+}
+.action_block{
+	background: #f7f7f7;
+}
+.action_block p{
+	font-size: 36px;
+}
+.action_text{
+	padding-top: 120px;
+	width: 770px;
+	margin: 0 auto
+}
+.but{
+	padding-bottom: 120px;
+}
+#section_3 .wrapper{
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 0px;
+}
+.button1{     
+ 	font: 400 14px 'Poppins', sans-serif;
+	color: #fff;
+	background: #f96257;
+	padding: 17px 33px 16px 33px;
+	border-radius: 3px;
+}
+/*end section 3*/
+#section_4{
+	background: white;
+	width: 100%;
+}
+.strawberry{
+	padding: 116px 170px 41px 170px;
+}
+.imaga{
+	width: 490px;
+	height: 648px;
+	background: url(../img/prof.png);
+	float: right;
+}
+.profit{
+	padding-top: 290px;
+	padding-right: 500px;
+	position: relative;
+}
+.line:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    height: 5px;
+    background: rgb(231, 231, 231);
+    border-width: 0 10px;
+    margin-right: -100%;
+    margin-left: 22px;
+}
+.profit p {
+	font: 400 22px 'Poppins', sans-serif;
+	padding-bottom: 75px;
+	margin: 0 0;
+}
+.text1{
+	padding-left: 150px;
+}
+.text2{
+	padding-left: 52px;
+}
+.line-1{
+	top: 305px;
+    left: 250px;
+}
+.line-2{
+	top: 414px;
+    left: 195px;
+}
+.line-3{
+	top: 523px;
+    left: 279px
+}
+.cont_text p{
+	font-size: 36px;
+	margin: 0 0;
+}
+.cont_text{
+	padding-bottom: 120px;
+}
+/*end section 4*/
+#section_5{
+	background: #fff;
+	width: 100%
+}
+.health_img{
+	background: url(../img/health.png);
+	width: 568px;
+	height: 703px;
+	float: right;
+}
+.health_benefits p {
+	font-size: 36px;
+	margin: 0 0;
+	padding-top: 250px;
+	padding-bottom: 22px;
+}
+.health_benefits li{
+	text-align: left;
+	padding-bottom: 9px;
+}
+.health_benefits i{
+	margin-right: 7px;
+}
+#section_6{
+
+	width: 100%;
+	background: #fff;
+}
+.straw{
+	background: url(../img/Rich.png);
+	width: 1170px;
+	margin-top: 100px;
+}
+.straw_text {
+    padding-top: 83px;
+    padding-bottom: 89px;
+    color: #fff;
+    width: 1000px;
+    margin: 0 auto;
+}
