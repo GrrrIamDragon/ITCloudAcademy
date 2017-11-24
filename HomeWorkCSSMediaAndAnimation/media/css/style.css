@@ -1,0 +1,71 @@
+.clearfix::after {
+     display: block;
+     content: "";
+     clear: both;
+   }
+
+div{
+	box-sizing: border-box;
+}
+
+
+.wrapper{
+	width: 1170px;
+	margin: 0 auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+p{
+	color: red;
+	font-size: 20px;
+}
+.wrapper_img{
+	 width: 24%;
+	 display: block;
+	 float:  left;
+}
+@media(min-width: 1200px) and (max-width: 1599px){
+	p{
+		color: green;
+		font-size: 0.8rem;
+	}
+		.wrapper_img{
+		 width: 33%;
+	}
+}
+@media(min-width: 992px) and (max-width: 1199px){
+	.wrapper{
+		width: 970px;
+	}
+	p{
+		color: magenta;
+		font-size: 0.7rem;
+	}
+		.wrapper_img{
+		 width: 33%;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.wrapper{
+		width: 750px;
+	}
+	p{
+		color: black;
+		font-size: 0.8rem;
+	}
+		.wrapper_img{
+		 width: 49%;
+	}
+}
+@media(min-width: 320px) and (max-width: 767px){
+	.wrapper{
+		width: viewport;
+	}
+	p{
+		color: yellow;
+		font-size: 0.7rem;
+	}
+		.wrapper_img{
+		 width: 100%;
+	}
+}

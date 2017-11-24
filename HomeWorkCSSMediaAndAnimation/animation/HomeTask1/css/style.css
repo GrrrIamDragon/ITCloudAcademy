@@ -1,0 +1,82 @@
+
+.wrapper div {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 80px;
+	background: black;
+}
+.block_1:hover {
+	animation: clr 5s linear;
+}
+@keyframes clr {
+	from { 
+		background: black;
+	}
+	to {
+		background: yellow;
+	}
+}
+.block_2:hover {
+	animation: scl 3s linear ;
+}
+@keyframes scl {
+	from { 
+	transform: scaleX(1);
+	}
+	to {
+		transform: scaleX(1.4);
+	}
+}
+.block_3:hover {
+	animation: opa 3s linear ;
+}
+@keyframes opa {
+	from { 
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+.block_4:hover {
+	animation: rot 2s linear ;
+}
+@keyframes rot {
+	0% { 
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(45deg);
+	}
+	50% {
+		transform: rotate(90deg);
+	}
+	75% {
+		transform: rotate(135deg);
+	}
+	100% {
+		transform: rotate(180deg);
+	}
+}
+.block_5:hover {
+	animation: sc 3s linear ;
+}
+@keyframes sc {
+	from { 
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.5, 1.4);
+	}
+}
+.block_6:hover{
+	animation: tr 2s linear ;
+}
+@keyframes tr {
+	from { 
+		transform: translate(0);
+	}
+	to {
+		transform: translate(60px, 70px);
+	}

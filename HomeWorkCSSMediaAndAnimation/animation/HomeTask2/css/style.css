@@ -1,0 +1,65 @@
+.wrapper {
+	width: 600px;
+	height: 600px;
+	float: right;
+	margin: 0 300px;
+}
+.block {
+	width: 200px;
+	height: 200px;
+	background: pink;
+	float: left;
+}
+.two, .four, .six, .eight {
+	background: transparent;
+}
+.five {
+	background: yellow;
+}
+.one {
+	animation: br 3s linear infinite;
+	transform-origin: bottom right;
+}
+@keyframes br {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.three {
+	animation: bl 3s linear infinite;
+	transform-origin: bottom left;
+}
+@keyframes bl {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.seven {
+	animation: tr 3s linear infinite;
+	transform-origin: top right;
+}
+@keyframes tr {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(-360deg);
+	}
+}
+.nine {
+	animation: tl 3s linear infinite;
+	transform-origin: top left;
+}
+@keyframes tl {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(-360deg);
+	}
