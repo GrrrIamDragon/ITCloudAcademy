@@ -1,8 +1,4 @@
-.clearfix::after {
-     display: block;
-     content: "";
-     clear: both;
-   }
+
 
 div{
 	box-sizing: border-box;
